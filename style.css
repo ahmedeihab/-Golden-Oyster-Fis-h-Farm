@@ -1,26 +1,123 @@
-
 :root {
-  /* Colors */
+  /* ألوان الموقع */
   --color-background: rgba(252, 252, 249, 1);
   --color-surface: rgba(255, 255, 253, 1);
   --color-text: rgba(19, 52, 59, 1);
   --color-text-secondary: rgba(98, 108, 113, 1);
   --color-primary: rgba(33, 128, 141, 1);
-  --color-primary-hover: rgba(29, 116, 128, 1);
-  --color-primary-active: rgba(26, 104, 115, 1);
   --color-secondary: rgba(94, 82, 64, 0.12);
-  --color-secondary-hover: rgba(94, 82, 64, 0.2);
-  --color-secondary-active: rgba(94, 82, 64, 0.25);
   --color-border: rgba(94, 82, 64, 0.2);
-  --color-btn-primary-text: rgba(252, 252, 249, 1);
-  --color-card-border: rgba(94, 82, 64, 0.12);
-  --color-card-border-inner: rgba(94, 82, 64, 0.12);
-  --color-error: rgba(192, 21, 47, 1);
-  --color-success: rgba(33, 128, 141, 1);
-  --color-warning: rgba(168, 75, 47, 1);
-  --color-info: rgba(98, 108, 113, 1);
-  --color-focus-ring: rgba(33, 128, 141, 0.4);
-  --color-select-caret: rgba(19, 52, 59, 0.8);
+  --color-ocean-gradient: linear-gradient(135deg, #0891b2 0%, #059669 100%);
+  --space-8: 8px;
+  --space-12: 12px;
+  --space-16: 16px;
+  --space-24: 24px;
+  --radius-base: 8px;
+  --radius-lg: 12px;
+  --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.04),0 4px 6px -2px rgba(0,0,0,0.02);
+  --font-weight-medium: 500;
+}
+
+/* عام */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "FKGroteskNeue", "Geist", "Inter", sans-serif;
+  background: var(--color-background);
+  color: var(--color-text);
+  line-height: 1.5;
+}
+
+/* زر تيك توك في الهيرو */
+.tiktok-btn {
+  display: inline-block;
+  margin-right: auto;
+  background: #000;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border-radius: var(--radius-base);
+  font-weight: var(--font-weight-medium);
+  text-decoration: none;
+}
+.tiktok-btn:hover {
+  background: #e60073;
+}
+
+/* تمييز كلمة الشركة */
+.highlighted-name {
+  color: #f59e0b;
+}
+
+/* توسيط مستطيلات الفوائد */
+.technology__benefits {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--space-24);
+}
+
+/* تكبير وتحسين تصميم الإحصائيات */
+.highlight__stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--color-ocean-gradient);
+  color: white;
+  padding: calc(var(--space-24) * 1.5);
+  border-radius: calc(var(--radius-lg) * 1.2);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+.highlight__stat:hover {
+  transform: scale(1.05);
+}
+
+/* أزرار واتساب */
+.whatsapp-btn {
+  background: #25D366;
+  color: #fff !important;
+  margin-top: var(--space-12);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  padding: var(--space-8) var(--space-16);
+  border-radius: var(--radius-base);
+}
+.whatsapp-btn:hover {
+  background: #1DA851;
+}
+
+/* أيقونات التواصل في الفوتر */
+.social-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: var(--space-8);
+}
+.social-link {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-8);
+  color: white;
+  background: rgba(255, 255, 255, 0.1);
+  padding: var(--space-8) var(--space-16);
+  border-radius: 9999px;
+  text-decoration: none;
+  transition: background 0.25s ease, transform 0.25s ease;
+}
+.social-link:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+}
+
+/* باقي التنسيقات كما في الملفات الأصلية... */
+
+
 
   /* Common style patterns */
   --focus-ring: 0 0 0 3px var(--color-focus-ring);
