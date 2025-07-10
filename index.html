@@ -60,8 +60,8 @@
     <div class="container about__content">
       <h2 class="section__title" data-ar="من نحن" data-en="About Us">من نحن</h2>
       <div class="about__text">
-        <p data-ar="تعتبر شركة أسماك المحارة الذهبية رائدة..."
-           data-en="Golden Oyster Fish Farm is a leader...">
+        <p data-ar="تعتبر شركة أسماك المحارة الذهبية رائدة في مجال استزراع أسماك البلطي باستخدام تقنية RAS المتطورة في منطقة شري بالقصيم."
+           data-en="Golden Oyster Fish Farm is a leader in tilapia farming using advanced RAS technology in Shari, Al-Qassim.">
           تعتبر شركة أسماك المحارة الذهبية رائدة في مجال استزراع أسماك البلطي باستخدام تقنية RAS المتطورة في منطقة شري بالقصيم.
         </p>
       </div>
@@ -72,7 +72,22 @@
     <div class="container">
       <h2 class="section__title" data-ar="خدماتنا" data-en="Our Services">خدماتنا</h2>
       <div class="services__grid">
-        <!-- بطاقات الخدمات إذا لزم -->
+        <div class="service__card">
+          <div class="service__icon">🐟</div>
+          <h3 data-ar="استزراع البلطي" data-en="Tilapia Farming">استزراع البلطي</h3>
+          <p data-ar="نوفر أسماك البلطي عالية الجودة باستخدام أحدث التقنيات"
+             data-en="We provide high-quality tilapia using the latest technologies">
+            نوفر أسماك البلطي عالية الجودة باستخدام أحدث التقنيات
+          </p>
+        </div>
+        <div class="service__card">
+          <div class="service__icon">⚙️</div>
+          <h3 data-ar="نظام RAS" data-en="RAS System">نظام RAS</h3>
+          <p data-ar="نظام إعادة تدوير المياه المتطور للحصول على أفضل النتائج"
+             data-en="Advanced water recirculation system for optimal results">
+            نظام إعادة تدوير المياه المتطور للحصول على أفضل النتائج
+          </p>
+        </div>
       </div>
     </div>
   </section>
@@ -100,8 +115,8 @@
   <section class="location" id="location">
     <div class="container">
       <h2 class="section__title" data-ar="موقعنا" data-en="Our Location">موقعنا</h2>
-      <p data-ar="تقع مزرعتنا في..."
-         data-en="Our farm is located in...">
+      <p data-ar="تقع مزرعتنا في منطقة شري بالقصيم، إحدى أهم المناطق الزراعية في المملكة."
+         data-en="Our farm is located in Shari, Al-Qassim, one of the most important agricultural areas in the Kingdom.">
         تقع مزرعتنا في منطقة شري بالقصيم، إحدى أهم المناطق الزراعية في المملكة.
       </p>
       <div class="location__highlight">
@@ -123,29 +138,32 @@
 
   <section class="contact" id="contact">
     <div class="container contact__content">
-      <div class="contact__numbers">
-        <div class="contact__number">
-          <span class="contact__name" data-ar="أحمد إيهاب" data-en="Ahmed Ehab">أحمد إيهاب</span>
-          <a href="tel:+9665XXXXXXXX" class="contact__phone">+9665XXXXXXXX</a>
+      <div class="contact__info">
+        <h2 class="section__title" data-ar="تواصل معنا" data-en="Contact Us">تواصل معنا</h2>
+        <div class="contact__numbers">
+          <div class="contact__number">
+            <span class="contact__name" data-ar="أحمد إيهاب" data-en="Ahmed Ehab">أحمد إيهاب</span>
+            <a href="tel:+966500000000" class="contact__phone">+966 50 000 0000</a>
+          </div>
+          <div class="contact__number">
+            <span class="contact__name" data-ar="عبد الله" data-en="Abdullah">عبد الله</span>
+            <a href="tel:+966500000001" class="contact__phone">+966 50 000 0001</a>
+          </div>
+          <a href="https://wa.me/966500000000?text=مرحباً%20أحمد%20إيهاب"
+             target="_blank"
+             class="btn btn--secondary whatsapp-btn"
+             data-ar="واتساب أحمد إيهاب"
+             data-en="WhatsApp Ahmed">
+            واتساب أحمد إيهاب
+          </a>
+          <a href="https://wa.me/966500000001?text=مرحباً%20عبدالله"
+             target="_blank"
+             class="btn btn--secondary whatsapp-btn"
+             data-ar="واتساب عبد الله"
+             data-en="WhatsApp Abdullah">
+            واتساب عبد الله
+          </a>
         </div>
-        <div class="contact__number">
-          <span class="contact__name" data-ar="عبد الله" data-en="Abdullah">عبد الله</span>
-          <a href="tel:+9665YYYYYYYY" class="contact__phone">+9665YYYYYYYY</a>
-        </div>
-        <a href="https://wa.me/9665XXXXXXXX?text=مرحباً%20أحمد%20إيهاب"
-           target="_blank"
-           class="btn btn--secondary whatsapp-btn"
-           data-ar="واتساب أحمد إيهاب"
-           data-en="WhatsApp Ahmed">
-          واتساب أحمد إيهاب
-        </a>
-        <a href="https://wa.me/9665YYYYYYYY?text=مرحباً%20عبدالله"
-           target="_blank"
-           class="btn btn--secondary whatsapp-btn"
-           data-ar="واتساب عبد الله"
-           data-en="WhatsApp Abdullah">
-          واتساب عبد الله
-        </a>
       </div>
       <form id="contactForm" class="contact__form">
         <input type="text" name="name" placeholder="الاسم" class="form-control" data-ar="الاسم" data-en="Name" required/>
@@ -163,11 +181,13 @@
         <p data-ar="جميع الحقوق محفوظة © 2025" data-en="© 2025 All rights reserved">جميع الحقوق محفوظة © 2025</p>
       </div>
       <div class="footer__social">
-        <a href="https://wa.me/9665XXXXXXXX" target="_blank" class="social-link">
-          <img src="icons/whatsapp.svg" alt="WhatsApp" class="social-icon"/>واتساب
+        <a href="https://wa.me/966500000000" target="_blank" class="social-link">
+          <img src="icons/whatsapp.svg" alt="WhatsApp" class="social-icon"/>
+          <span data-ar="واتساب" data-en="WhatsApp">واتساب</span>
         </a>
         <a href="https://www.tiktok.com/@goldenoyster" target="_blank" class="social-link">
-          <img src="icons/tiktok.svg" alt="TikTok" class="social-icon"/>تيك توك
+          <img src="icons/tiktok.svg" alt="TikTok" class="social-icon"/>
+          <span data-ar="تيك توك" data-en="TikTok">تيك توك</span>
         </a>
       </div>
     </div>
