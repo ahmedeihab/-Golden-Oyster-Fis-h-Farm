@@ -1,203 +1,229 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title data-ar="ريادة استزراع الأسماك" data-en="Leading Fish Farming">ريادة استزراع الأسماك</title>
-  <link rel="stylesheet" href="style-4.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-ar="أسماك المحار الذهبية - الريادة في استزراع أسماك البلطي" data-en="Golden Oyster Fish - Leading in Tilapia Farming">أسماك المحار الذهبية</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header class="header">
-    <div class="header__content container">
-      <h2 class="header__logo" data-ar="أسماك المحارة الذهبية" data-en="Golden Oyster Fish Farm">
-        أسماك المحارة الذهبية
-      </h2>
-      <nav class="header__nav">
-        <ul class="nav__list">
-          <li><a href="#about" data-ar="من نحن" data-en="About">من نحن</a></li>
-          <li><a href="#services" data-ar="خدماتنا" data-en="Services">خدماتنا</a></li>
-          <li><a href="#technology" data-ar="تقنيتنا" data-en="Technology">تقنيتنا</a></li>
-          <li><a href="#contact" data-ar="تواصل معنا" data-en="Contact">تواصل معنا</a></li>
-        </ul>
-      </nav>
-      <button id="languageToggle" class="language-toggle" data-ar="EN" data-en="AR">EN</button>
-    </div>
-  </header>
-
-  <section class="hero" id="hero">
-    <div class="hero__background">
-      <img src="images/hero-bg.jpg" alt="Background" />
-      <div class="hero__overlay"></div>
-    </div>
-    <div class="hero__content container">
-      <a href="https://www.tiktok.com/@goldenoyster" target="_blank"
-         class="btn btn--outline tiktok-btn"
-         data-ar="تابعنا على تيك توك" data-en="Follow on TikTok">
-        تابعنا على تيك توك
-      </a>
-      <h1 class="hero__title" data-ar="ريادة استزراع الأسماك" data-en="Leading Fish Farming">
-        ريادة استزراع
-        <span class="highlighted-name"
-              data-ar="أسماك المحارة الذهبية"
-              data-en="Golden Oyster Fish">أسماك المحارة الذهبية</span>
-      </h1>
-      <p class="hero__subtitle"
-         data-ar="نظام RAS المتطور لاستزراع البلطي"
-         data-en="Advanced RAS tilapia farming">
-        نظام RAS المتطور لاستزراع البلطي
-      </p>
-      <p class="hero__location"
-         data-ar="شري - القصيم - المملكة العربية السعودية"
-         data-en="Shari, Al-Qassim, Saudi Arabia">
-        شري - القصيم - المملكة العربية السعودية
-      </p>
-      <a href="#about" class="hero__cta btn btn--primary"
-         data-ar="أعرف أكثر" data-en="Learn More">أعرف أكثر</a>
-    </div>
-  </section>
-
-  <section class="about" id="about">
-    <div class="container about__content">
-      <h2 class="section__title" data-ar="من نحن" data-en="About Us">من نحن</h2>
-      <div class="about__text">
-        <p data-ar="تعتبر شركة أسماك المحارة الذهبية رائدة في مجال استزراع أسماك البلطي باستخدام تقنية RAS المتطورة في منطقة شري بالقصيم."
-           data-en="Golden Oyster Fish Farm is a leader in tilapia farming using advanced RAS technology in Shari, Al-Qassim.">
-          تعتبر شركة أسماك المحارة الذهبية رائدة في مجال استزراع أسماك البلطي باستخدام تقنية RAS المتطورة في منطقة شري بالقصيم.
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <section class="services" id="services">
-    <div class="container">
-      <h2 class="section__title" data-ar="خدماتنا" data-en="Our Services">خدماتنا</h2>
-      <div class="services__grid">
-        <div class="service__card">
-          <div class="service__icon">🐟</div>
-          <h3 data-ar="استزراع البلطي" data-en="Tilapia Farming">استزراع البلطي</h3>
-          <p data-ar="نوفر أسماك البلطي عالية الجودة باستخدام أحدث التقنيات"
-             data-en="We provide high-quality tilapia using the latest technologies">
-            نوفر أسماك البلطي عالية الجودة باستخدام أحدث التقنيات
-          </p>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header__content">
+                <div class="header__logo">
+                    <h2 data-ar="أسماك المحار الذهبية" data-en="Golden Oyster Fish">أسماك المحار الذهبية</h2>
+                </div>
+                <nav class="header__nav">
+                    <ul class="nav__list">
+                        <li><a href="#about" data-ar="عن الشركة" data-en="About Us">عن الشركة</a></li>
+                        <li><a href="#services" data-ar="خدماتنا" data-en="Our Services">خدماتنا</a></li>
+                        <li><a href="#technology" data-ar="التقنية" data-en="Technology">التقنية</a></li>
+                        <li><a href="#location" data-ar="الموقع" data-en="Location">الموقع</a></li>
+                        <li><a href="#contact" data-ar="تواصل معنا" data-en="Contact Us">تواصل معنا</a></li>
+                    </ul>
+                </nav>
+                <div class="header__actions">
+                    <button class="language-toggle" id="languageToggle">
+                        <span data-ar="English" data-en="العربية">English</span>
+                    </button>
+                </div>
+            </div>
         </div>
-        <div class="service__card">
-          <div class="service__icon">⚙️</div>
-          <h3 data-ar="نظام RAS" data-en="RAS System">نظام RAS</h3>
-          <p data-ar="نظام إعادة تدوير المياه المتطور للحصول على أفضل النتائج"
-             data-en="Advanced water recirculation system for optimal results">
-            نظام إعادة تدوير المياه المتطور للحصول على أفضل النتائج
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
+    </header>
 
-  <section class="technology" id="technology">
-    <div class="container">
-      <h2 class="section__title" data-ar="تقنيتنا" data-en="Our Technology">تقنيتنا</h2>
-      <div class="technology__benefits">
-        <div class="benefit">
-          <div class="benefit__icon">💧</div>
-          <h3 data-ar="إعادة تدوير المياه" data-en="Water Recycling">إعادة تدوير المياه</h3>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero__background">
+            <img src="https://user-gen-media-assets.s3.amazonaws.com/gpt4o_images/68d7903e-dd2a-4cbc-a831-ac4595621914.png" alt="Modern tilapia fish farm facility">
         </div>
-        <div class="benefit">
-          <div class="benefit__icon">🔬</div>
-          <h3 data-ar="مراقبة الجودة" data-en="Quality Monitoring">مراقبة الجودة</h3>
+        <div class="hero__content">
+            <div class="container">
+                <div class="hero__text">
+                    <h1 class="hero__title" data-ar="أسماك المحار الذهبية" data-en="Golden Oyster Fish">أسماك المحار الذهبية</h1>
+                    <p class="hero__subtitle" data-ar="الريادة في استزراع أسماك البلطي بنظام RAS المتطور" data-en="Leading in Tilapia Farming with Advanced RAS Technology">الريادة في استزراع أسماك البلطي بنظام RAS المتطور</p>
+                    <p class="hero__location" data-ar="شري - القصيم - المملكة العربية السعودية" data-en="Shari - Qassim - Saudi Arabia">شري - القصيم - المملكة العربية السعودية</p>
+                    <div class="hero__stats">
+                        <div class="stat">
+                            <span class="stat__number" data-count="150">150</span>
+                            <span class="stat__label" data-ar="حوض مستهدف" data-en="Target Tanks">حوض مستهدف</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat__number">RAS</span>
+                            <span class="stat__label" data-ar="تقنية متطورة" data-en="Advanced Technology">تقنية متطورة</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat__number">95%</span>
+                            <span class="stat__label" data-ar="توفير المياه" data-en="Water Savings">توفير المياه</span>
+                        </div>
+                    </div>
+                    <button class="btn btn--primary hero__cta" data-ar="اكتشف المزيد" data-en="Learn More">اكتشف المزيد</button>
+                </div>
+            </div>
         </div>
-        <div class="benefit">
-          <div class="benefit__icon">🌿</div>
-          <h3 data-ar="ممارسات مستدامة" data-en="Sustainable Practices">ممارسات مستدامة</h3>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="location" id="location">
-    <div class="container">
-      <h2 class="section__title" data-ar="موقعنا" data-en="Our Location">موقعنا</h2>
-      <p data-ar="تقع مزرعتنا في منطقة شري بالقصيم، إحدى أهم المناطق الزراعية في المملكة."
-         data-en="Our farm is located in Shari, Al-Qassim, one of the most important agricultural areas in the Kingdom.">
-        تقع مزرعتنا في منطقة شري بالقصيم، إحدى أهم المناطق الزراعية في المملكة.
-      </p>
-      <div class="location__highlight">
-        <div class="highlight__stat" data-count="150">
-          <div class="highlight__number">150</div>
-          <div class="highlight__label" data-ar="حوض" data-en="Tanks">حوض</div>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section__title" data-ar="عن الشركة" data-en="About Us">عن الشركة</h2>
+            <div class="about__content">
+                <div class="about__text">
+                    <p data-ar="تعتبر شركة أسماك المحار الذهبية رائدة في مجال استزراع أسماك البلطي باستخدام تقنية RAS المتطورة في منطقة شري بالقصيم. نحن نعمل على إنشاء مزرعة حديثة تضم 150 حوضاً لإنتاج أسماك البلطي عالية الجودة بطريقة مستدامة وصديقة للبيئة." data-en="Golden Oyster Fish is a leading company in tilapia farming using advanced RAS technology in the Shari area of Qassim. We are building a modern farm with 150 tanks to produce high-quality tilapia fish in a sustainable and environmentally friendly manner.">تعتبر شركة أسماك المحار الذهبية رائدة في مجال استزراع أسماك البلطي باستخدام تقنية RAS المتطورة في منطقة شري بالقصيم. نحن نعمل على إنشاء مزرعة حديثة تضم 150 حوضاً لإنتاج أسماك البلطي عالية الجودة بطريقة مستدامة وصديقة للبيئة.</p>
+                    <div class="about__features">
+                        <div class="feature">
+                            <div class="feature__icon">🐟</div>
+                            <h3 data-ar="أسماك البلطي عالية الجودة" data-en="High-Quality Tilapia">أسماك البلطي عالية الجودة</h3>
+                        </div>
+                        <div class="feature">
+                            <div class="feature__icon">💧</div>
+                            <h3 data-ar="تقنية RAS المتطورة" data-en="Advanced RAS Technology">تقنية RAS المتطورة</h3>
+                        </div>
+                        <div class="feature">
+                            <div class="feature__icon">🌱</div>
+                            <h3 data-ar="الاستدامة البيئية" data-en="Environmental Sustainability">الاستدامة البيئية</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="highlight__stat" data-count="1000000">
-          <div class="highlight__number">1M+</div>
-          <div class="highlight__label"
-               data-ar="لتر مياه معاد تدويرها"
-               data-en="Liters Recycled">
-            لتر مياه معاد تدويرها
-          </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section__title" data-ar="خدماتنا" data-en="Our Services">خدماتنا</h2>
+            <div class="services__grid">
+                <div class="service__card">
+                    <div class="service__icon">🐟</div>
+                    <h3 data-ar="إنتاج أسماك البلطي" data-en="Tilapia Production">إنتاج أسماك البلطي</h3>
+                    <p data-ar="إنتاج أسماك البلطي النيلي عالية الجودة" data-en="High-quality Nile tilapia production">إنتاج أسماك البلطي النيلي عالية الجودة</p>
+                </div>
+                <div class="service__card">
+                    <div class="service__icon">⚙️</div>
+                    <h3 data-ar="تقنية RAS" data-en="RAS Technology">تقنية RAS</h3>
+                    <p data-ar="نظام إعادة تدوير المياه المتطور" data-en="Advanced water recirculation system">نظام إعادة تدوير المياه المتطور</p>
+                </div>
+                <div class="service__card">
+                    <div class="service__icon">🌿</div>
+                    <h3 data-ar="الزراعة المستدامة" data-en="Sustainable Farming">الزراعة المستدامة</h3>
+                    <p data-ar="ممارسات زراعية مستدامة وصديقة للبيئة" data-en="Sustainable and environmentally friendly practices">ممارسات زراعية مستدامة وصديقة للبيئة</p>
+                </div>
+                <div class="service__card">
+                    <div class="service__icon">🚚</div>
+                    <h3 data-ar="توريد الأسماك الطازجة" data-en="Fresh Fish Supply">توريد الأسماك الطازجة</h3>
+                    <p data-ar="توريد أسماك طازجة عالية الجودة" data-en="High-quality fresh fish supply">توريد أسماك طازجة عالية الجودة</p>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="contact" id="contact">
-    <div class="container contact__content">
-      <div class="contact__info">
-        <h2 class="section__title" data-ar="تواصل معنا" data-en="Contact Us">تواصل معنا</h2>
-        <div class="contact__numbers">
-          <div class="contact__number">
-            <span class="contact__name" data-ar="أحمد إيهاب" data-en="Ahmed Ehab">أحمد إيهاب</span>
-            <a href="tel:+966500000000" class="contact__phone">+966 50 000 0000</a>
-          </div>
-          <div class="contact__number">
-            <span class="contact__name" data-ar="عبد الله" data-en="Abdullah">عبد الله</span>
-            <a href="tel:+966500000001" class="contact__phone">+966 50 000 0001</a>
-          </div>
-          <a href="https://wa.me/966500000000?text=مرحباً%20أحمد%20إيهاب"
-             target="_blank"
-             class="btn btn--secondary whatsapp-btn"
-             data-ar="واتساب أحمد إيهاب"
-             data-en="WhatsApp Ahmed">
-            واتساب أحمد إيهاب
-          </a>
-          <a href="https://wa.me/966500000001?text=مرحباً%20عبدالله"
-             target="_blank"
-             class="btn btn--secondary whatsapp-btn"
-             data-ar="واتساب عبد الله"
-             data-en="WhatsApp Abdullah">
-            واتساب عبد الله
-          </a>
+    <!-- Technology Section -->
+    <section id="technology" class="technology">
+        <div class="container">
+            <h2 class="section__title" data-ar="تقنية RAS المتطورة" data-en="Advanced RAS Technology">تقنية RAS المتطورة</h2>
+            <div class="technology__content">
+                <div class="technology__benefits">
+                    <div class="benefit">
+                        <div class="benefit__icon">💧</div>
+                        <h3 data-ar="توفير المياه بنسبة تصل إلى 95%" data-en="Save up to 95% of water usage">توفير المياه بنسبة تصل إلى 95%</h3>
+                    </div>
+                    <div class="benefit">
+                        <div class="benefit__icon">🔬</div>
+                        <h3 data-ar="تحكم كامل في جودة المياه" data-en="Complete control over water quality">تحكم كامل في جودة المياه</h3>
+                    </div>
+                    <div class="benefit">
+                        <div class="benefit__icon">🏆</div>
+                        <h3 data-ar="إنتاج أسماك عالية الجودة" data-en="High-quality fish production">إنتاج أسماك عالية الجودة</h3>
+                    </div>
+                    <div class="benefit">
+                        <div class="benefit__icon">🌍</div>
+                        <h3 data-ar="صديقة للبيئة ومستدامة" data-en="Environmentally friendly and sustainable">صديقة للبيئة ومستدامة</h3>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-      <form id="contactForm" class="contact__form">
-        <input type="text" name="name" placeholder="الاسم" class="form-control" data-ar="الاسم" data-en="Name" required/>
-        <input type="email" name="email" placeholder="البريد الإلكتروني" class="form-control" data-ar="البريد الإلكتروني" data-en="Email" required/>
-        <textarea name="message" placeholder="رسالتك" class="form-control" data-ar="رسالتك" data-en="Your Message" required></textarea>
-        <button type="submit" class="btn btn--primary" data-ar="إرسال" data-en="Send">إرسال</button>
-      </form>
-    </div>
-  </section>
+    </section>
 
-  <footer class="footer">
-    <div class="container footer__content">
-      <div class="footer__info">
-        <h3 data-ar="أسماك المحارة الذهبية" data-en="Golden Oyster Fish Farm">أسماك المحارة الذهبية</h3>
-        <p data-ar="جميع الحقوق محفوظة © 2025" data-en="© 2025 All rights reserved">جميع الحقوق محفوظة © 2025</p>
-      </div>
-      <div class="footer__social">
-        <a href="https://wa.me/966500000000" target="_blank" class="social-link">
-          <img src="icons/whatsapp.svg" alt="WhatsApp" class="social-icon"/>
-          <span data-ar="واتساب" data-en="WhatsApp">واتساب</span>
-        </a>
-        <a href="https://www.tiktok.com/@goldenoyster" target="_blank" class="social-link">
-          <img src="icons/tiktok.svg" alt="TikTok" class="social-icon"/>
-          <span data-ar="تيك توك" data-en="TikTok">تيك توك</span>
-        </a>
-      </div>
-    </div>
-    <div class="footer__bottom">
-      <p data-ar="تصميم وتطوير by فريقنا" data-en="Design & Development by Our Team">
-        تصميم وتطوير by فريقنا
-      </p>
-    </div>
-  </footer>
+    <!-- Location Section -->
+    <section id="location" class="location">
+        <div class="container">
+            <h2 class="section__title" data-ar="الموقع" data-en="Location">الموقع</h2>
+            <div class="location__content">
+                <p data-ar="تقع مزرعتنا في منطقة شري بالقصيم، إحدى أهم المناطق الزراعية في المملكة. تساهم منطقة القصيم بثلث إنتاج المملكة من الاستزراع المائي الداخلي، مما يجعلها الموقع المثالي لمشروعنا الرائد." data-en="Our farm is located in the Shari area of Qassim, one of the most important agricultural regions in the Kingdom. The Qassim region contributes one-third of the Kingdom's inland aquaculture production, making it the ideal location for our pioneering project.">تقع مزرعتنا في منطقة شري بالقصيم، إحدى أهم المناطق الزراعية في المملكة. تساهم منطقة القصيم بثلث إنتاج المملكة من الاستزراع المائي الداخلي، مما يجعلها الموقع المثالي لمشروعنا الرائد.</p>
+                <div class="location__highlight">
+                    <div class="highlight__stat">
+                        <span class="highlight__number">1/3</span>
+                        <span class="highlight__label" data-ar="من إنتاج المملكة" data-en="of Kingdom's Production">من إنتاج المملكة</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <script src="app-1.js"></script>
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section__title" data-ar="تواصل معنا" data-en="Contact Us">تواصل معنا</h2>
+            <div class="contact__content">
+                <div class="contact__info">
+                    <div class="contact__numbers">
+                        <div class="contact__number">
+                            <span class="contact__name" data-ar="م/عبدالله" data-en="Mr. Abdullah">م/عبدالله</span>
+                            <span class="contact__phone">0568845860</span>
+                        </div>
+                        <div class="contact__number">
+                            <span class="contact__name" data-ar="م/احمد" data-en="Mr. Ahmed">م/احمد</span>
+                            <span class="contact__phone">0567455791</span>
+                        </div>
+                    </div>
+                    <div class="contact__address">
+                        <h4 data-ar="العنوان" data-en="Address">العنوان</h4>
+                        <p data-ar="شري - القصيم - المملكة العربية السعودية" data-en="Shari - Qassim - Saudi Arabia">شري - القصيم - المملكة العربية السعودية</p>
+                    </div>
+                </div>
+                <div class="contact__form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label class="form-label" data-ar="الاسم" data-en="Name">الاسم</label>
+                            <input type="text" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" data-ar="البريد الإلكتروني" data-en="Email">البريد الإلكتروني</label>
+                            <input type="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" data-ar="الرسالة" data-en="Message">الرسالة</label>
+                            <textarea class="form-control" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--primary" data-ar="إرسال الرسالة" data-en="Send Message">إرسال الرسالة</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__info">
+                    <h3 data-ar="أسماك المحار الذهبية" data-en="Golden Oyster Fish">أسماك المحار الذهبية</h3>
+                    <p data-ar="الريادة في استزراع أسماك البلطي بنظام RAS المتطور" data-en="Leading in Tilapia Farming with Advanced RAS Technology">الريادة في استزراع أسماك البلطي بنظام RAS المتطور</p>
+                </div>
+                <div class="footer__social">
+                    <a href="https://www.tiktok.com/@golden_oysters?_t=ZS-8xskjZB7B6F&_r=1" target="_blank" class="social-link">
+                        <span data-ar="تيك توك" data-en="TikTok">تيك توك</span>
+                    </a>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p data-ar="© 2024 أسماك المحار الذهبية. جميع الحقوق محفوظة." data-en="© 2024 Golden Oyster Fish. All rights reserved.">© 2024 أسماك المحار الذهبية. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
 </body>
 </html>
